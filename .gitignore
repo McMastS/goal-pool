@@ -1,18 +1,18 @@
 # frontend dependencies
 */node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+*/.pnp
+*/.pnp.js
+*/.yarn/install-state.gz
 
 # testing
-/coverage
+*/coverage
 
 # next.js
-/.next/
-/out/
+*/.next/
+*/out/
 
 # production
-/build
+*/build
 
 # misc
 .DS_Store
@@ -27,11 +27,11 @@ yarn-error.log*
 .env*.local
 
 # vercel
-.vercel
+*/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+*/*.tsbuildinfo
+*/next-env.d.ts
 
 # backend ignores
 */target
