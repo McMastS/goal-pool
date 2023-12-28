@@ -1,0 +1,69 @@
+{
+    "users": [
+      {
+        "userID": 1,
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "password1"
+      },
+      {
+        "userID": 2,
+        "username": "user2",
+        "email": "user2@example.com",
+        "password": "password2"
+      }
+    ],
+    "leagues": [
+      {
+        "leagueID": 1,
+        "leagueName": "Fantasy Hockey League",
+        "creatorID": 1
+      }
+    ],
+    "teams": [
+      {
+        "teamID": 1,
+        "teamName": "Team 1",
+        "ownerID": 1,
+        "leagueID": 1
+      },
+      {
+        "teamID": 2,
+        "teamName": "Team 2",
+        "ownerID": 2,
+        "leagueID": 1
+      }
+    ],
+    "players": [
+      {
+        "playerID": 1,
+        "playerName": "Player A",
+        "teamID": 1,
+        "position": "Forward"
+      },
+      {
+        "playerID": 2,
+        "playerName": "Player B",
+        "teamID": 1,
+        "position": "Defense"
+      }
+    ],
+    "stats": [
+      {
+        "statID": 1,
+        "playerID": 1,
+        "gameDate": "2023-01-01",
+        "goals": 2,
+        "assists": 1,
+        "saves": 0
+      },
+      {
+        "statID": 2,
+        "playerID": 2,
+        "gameDate": "2023-01-01",
+        "goals": 1,
+        "assists": 0,
+        "saves": 0
+      }
+    ]
+  }
