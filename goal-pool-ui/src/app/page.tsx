@@ -1,5 +1,13 @@
-export default function Home({ children }: { children: React.ReactNode }) {
+import Standings from "./ui/standings";
+
+export default function Home({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <div>Hello World!</div>
-  )
+    <main>
+      <h1>Hello World!</h1>
+    </main>
+  );
 }
