@@ -23,6 +23,7 @@ export type Player = {
     playerName: string;
     teamID: number;
     position: string;
+    goals: number;
 }
 
 export type Stats = {
